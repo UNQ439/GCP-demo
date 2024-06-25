@@ -3,8 +3,8 @@ runtime: python39
 entrypoint: gunicorn -w 4 -b :$PORT main:app
 
 env_variables:
-  GOOGLE_CLOUD_PROJECT: "qwiklabs-gcp-02-aafa89bc4ad3"
-  DATASET_ID: "qwiklabs-gcp-02-aafa89bc4ad3.customerdata"
+  GOOGLE_CLOUD_PROJECT: "balmy-parser-423915-e7"
+  DATASET_ID: "balmy-parser-423915-e7.customerdata"
   PORT: "80"
 
 service: default  # Replace with your app's name
