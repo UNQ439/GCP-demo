@@ -4,8 +4,8 @@ from google.cloud import bigquery
 app = Flask(__name__)
 
 # Configure BigQuery client (replace with your project ID and dataset ID)
-client = bigquery.Client(project='qwiklabs-gcp-02-aafa89bc4ad3')
-dataset_id = 'qwiklabs-gcp-02-aafa89bc4ad3.customerdata'
+client = bigquery.Client(project='balmy-parser-423915-e7')
+dataset_id = 'balmy-parser-423915-e7.customerdata'
 
 @app.route('/')
 def user_form():
